@@ -1,2 +1,1 @@
-# SCFrontend
-Frontend Sincro Honda VueJS
+# E-vote-Frontend
