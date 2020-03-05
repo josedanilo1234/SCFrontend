@@ -1,0 +1,134 @@
+
+
+.default-header {
+  padding: 5px 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+.menu-bar {
+  cursor: pointer;
+}
+
+.menu-bar span {
+  color: black;
+  font-size: 28px;
+  margin-left: -40px;
+}
+
+.main-menubar {
+  position: relative;
+}
+
+.nav {
+  margin-right: 60px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  transform-origin: 100% 50%;
+}
+
+@media (max-width: 767px) {
+  .nav {
+    margin-right: -5px;
+    position: absolute;
+    right: 0;
+    top: 27px;
+    text-align: right;
+    padding: 30px 0;
+    z-index: 7;
+    background: #fff;
+  }
+  .nav a {
+    color: black !important;
+    margin-top: 10px !important;
+  }
+  .nav a:hover {
+    color: #A2A3A3 !important;
+  }
+
+  .menu-bar span {
+  color: black !important;
+  font-size: 28px !important;
+  margin-left: -70px !important;
+}
+}
+
+.nav.hide {
+  transform: scale(0);
+}
+
+.nav a {
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0 25px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+
+
+.nav a:hover {
+  color: #A2A3A3 !important;
+}
+
+
+
+.default-header {
+  padding: 20px 0;
+  width: 100% !important;
+  background: transparent;
+}
+
+
+.is-sticky .default-header {
+  height: 72px !important;
+  
+}
+
+.banner-area {
+  margin-top: -70px;
+}
+
+.banner-area .fullscreen {
+  height: 850px !important;
+}
+
+@media (max-width: 1028px) {
+  .banner-area .fullscreen {
+    height: 600px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-area .fullscreen {
+    height: 800px !important;
+  }
+}
+
+.banner-area .desc {
+  position: absolute;
+  bottom: 100px;
+  right: 400px;
+}
+
+
+
+.header-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-text h1 {
+  margin-bottom: 20px;
+}
+
+.header-text p {
+  color: black;
+}
