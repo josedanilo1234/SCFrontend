@@ -13,7 +13,7 @@
     "codemirror": "^5.51.0",
     "core-js": "^3.4.3",
     "d3": "^5.14.2",
-    "datatables.net": "^1.10.20",
+    "datatables.net": "^1.11.3",
     "datatables.net-bs4": "^1.10.20",
     "datatables.net-responsive": "^2.2.3",
     "jquery": "^3.4.1",
